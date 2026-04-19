@@ -53,11 +53,20 @@ pip install customtkinter pandas openpyxl matplotlib statsmodels scikit-learn sc
 
 Se utilizar este software na sua investigação, por favor cite-o da seguinte forma:
 
-**Formato ABNT:**
-NEVES, Eduardo Borba. **Análise de Regressão Automática**. Versão 1.0. [S.l.]: [s.n.], 2026. Software.
+══════════════════════════════════════════════════════════════
 
-**Formato APA:**
-Neves, E. B. (2026). *Análise de Regressão Automática* (Version 1.0) [Computer software].
+    Neves, E. B. (2026). Análise de Regressão Automática (Versão 1.0)
+    [Software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.19653743
+
+    Formato ABNT:
+    NEVES, Eduardo Borba. Análise de Regressão Automática. Versão 1.0.
+    [S.l.]: Zenodo, 2026. Software. DOI: https://doi.org/10.5281/zenodo.19653743 
+
+    Formato APA:
+    Neves, E. B. (2026). Análise de Regressão Automática (Version 1.0)
+    [Computer software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.19653743
+
+══════════════════════════════════════════════════════════════
 
 -----
 
