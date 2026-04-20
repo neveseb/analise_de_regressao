@@ -1,4 +1,4 @@
-# Análise de Regressão Automática v1.01
+# Análise de Regressão Automática v1.02
 
 Uma ferramenta poderosa e intuitiva desenvolvida em Python para a realização de análises de regressão estatística complexas. O software automatiza a verificação de pressupostos e a seleção de modelos, sendo ideal para investigadores, académicos e analistas de dados.
 
@@ -6,7 +6,8 @@ Uma ferramenta poderosa e intuitiva desenvolvida em Python para a realização d
 
 ---
 
-<img width="1900" height="942" alt="image" src="https://github.com/user-attachments/assets/45b1b5b8-e628-4bae-a4ae-f85c6387f876" />
+<img width="1892" height="981" alt="image" src="https://github.com/user-attachments/assets/0e3e042c-92ed-442c-82bc-02e79c3a25d6" />
+
 
 
 ## 🚀 Funcionalidades Principais
