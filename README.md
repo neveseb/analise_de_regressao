@@ -1,10 +1,13 @@
-# Análise de Regressão Automática v1.0
+# Análise de Regressão Automática v1.01
 
 Uma ferramenta poderosa e intuitiva desenvolvida em Python para a realização de análises de regressão estatística complexas. O software automatiza a verificação de pressupostos e a seleção de modelos, sendo ideal para investigadores, académicos e analistas de dados.
 
 **Autor:** Eduardo Borba Neves
 
 ---
+
+<img width="1900" height="942" alt="image" src="https://github.com/user-attachments/assets/45b1b5b8-e628-4bae-a4ae-f85c6387f876" />
+
 
 ## 🚀 Funcionalidades Principais
 
@@ -56,15 +59,15 @@ Se utilizar este software na sua investigação, por favor cite-o da seguinte fo
 ══════════════════════════════════════════════════════════════
 
     Neves, E. B. (2026). Análise de Regressão Automática (Versão 1.0)
-    [Software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.19653743
+    [Software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.19653742
 
     Formato ABNT:
     NEVES, Eduardo Borba. Análise de Regressão Automática. Versão 1.0.
-    [S.l.]: Zenodo, 2026. Software. DOI: https://doi.org/10.5281/zenodo.19653743 
+    [S.l.]: Zenodo, 2026. Software. DOI: https://doi.org/10.5281/zenodo.19653742 
 
     Formato APA:
     Neves, E. B. (2026). Análise de Regressão Automática (Version 1.0)
-    [Computer software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.19653743
+    [Computer software]. Zenodo. DOI: https://doi.org/10.5281/zenodo.19653742
 
 ══════════════════════════════════════════════════════════════
 
