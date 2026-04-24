@@ -146,13 +146,29 @@ def identificar_tipo_variavel(serie: pd.Series) -> str:
         return "continua"
     return "binaria" if n_unique == 2 else "categorica"
 
+
 def calcular_vif(X: pd.DataFrame):
     vif_data = {}
-    if X.shape[1] < 2: return vif_data
-    for i, col in enumerate(X.columns):
-        try: vif_data[col] = variance_inflation_factor(X.values, i)
-        except: vif_data[col] = float('nan')
+    
+    # O VIF requer pelo menos duas variáveis para análise de multicolinearidade
+    if X.shape[1] < 2: 
+        return vif_data
+    
+    # ADICIONE ESTA LINHA: Adiciona uma coluna de 1s (intercepto)
+    # Isso garante que o R2 seja calculado de forma centralizada, 
+    # igualando o resultado aos softwares estatísticos.
+    X_com_constante = sm.add_constant(X)
+    
+    for col in X.columns:
+        try:
+            # Pegamos o índice da coluna original na nova matriz (que agora tem a 'const')
+            idx = X_com_constante.columns.get_loc(col)
+            vif_data[col] = variance_inflation_factor(X_com_constante.values, idx)
+        except Exception as e:
+            vif_data[col] = float('nan')
+            
     return vif_data
+
 
 def teste_normalidade(serie: pd.Series):
     """Shapiro-Wilk (n<=50) ou Kolmogorov-Smirnov."""
